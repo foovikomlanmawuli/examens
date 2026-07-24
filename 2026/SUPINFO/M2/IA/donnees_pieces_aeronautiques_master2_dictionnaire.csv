@@ -1,0 +1,26 @@
+Variable,Type,Unite,Description,Role
+ID_Piece,texte,"-",Identifiant de la pièce,identifiant
+NumeroLot,texte,"-",Numéro du lot de fabrication,identifiant
+DateProduction,datetime,"date-heure",Date et heure de production,temporelle
+Machine,catégorielle,"-",Machine de production,prédicteur catégoriel
+Materiau,catégorielle,"-",Alliage ou matériau principal,prédicteur catégoriel
+Poste,catégorielle,"-",Poste industriel,prédicteur catégoriel
+Equipe,catégorielle,"-",Équipe de production,prédicteur catégoriel
+Fournisseur,catégorielle,"-",Fournisseur de la matière,prédicteur catégoriel
+Diametre_mm,numérique,"mm",Diamètre mesuré,prédicteur numérique
+Longueur_mm,numérique,"mm",Longueur mesurée,prédicteur numérique
+Epaisseur_mm,numérique,"mm",Épaisseur mesurée,prédicteur numérique
+Masse_g,numérique,"g",Masse de la pièce,prédicteur numérique
+Rugosite_um,numérique,"µm",Rugosité moyenne de surface,prédicteur numérique
+Circularite_um,numérique,"µm",Erreur de circularité,prédicteur numérique
+Temperature_C,numérique,"°C",Température mesurée,prédicteur numérique
+Vibration_RMS_mm_s,numérique,"mm/s",Vibration efficace RMS,prédicteur numérique
+Vibration_Pic_mm_s,numérique,"mm/s",Amplitude vibratoire de crête,prédicteur numérique
+NiveauAcoustique_dB,numérique,"dB",Niveau acoustique,prédicteur numérique
+FrequenceDominante_Hz,numérique,"Hz",Fréquence acoustique dominante,prédicteur numérique
+AmplitudeUltrason_dB,numérique,"dB",Amplitude du signal ultrasonore,prédicteur numérique
+TempsVolUltrason_us,numérique,"µs",Temps de vol ultrasonore,prédicteur numérique
+Durete_HV,numérique,"HV",Dureté Vickers,prédicteur numérique
+Conductivite_MS_m,numérique,"MS/m",Conductivité électrique,prédicteur numérique
+Humidite_pct,numérique,"%",Humidité ambiante,prédicteur numérique
+Defectueuse,binaire,"0=conforme, 1=défectueuse",Variable cible de classification,cible
